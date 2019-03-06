@@ -107,7 +107,7 @@ public class Server {
         }
         log("Message received: " + clientMessage);
 
-        if (result.equals("end")) {
+        if (result.equals("quit")) {
             socketChannel1.close();
             log("\nIt'result time to close connection   ");
         }
